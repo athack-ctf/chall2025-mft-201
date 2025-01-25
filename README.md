@@ -1,6 +1,6 @@
-# Chall - Your Challenge Title
+# Chall - MFT 201
 
-> A brief description of the challenge
+> It is about the master file table (MFT) in windows NTFS file system.
 
 ## Type
 
@@ -9,30 +9,18 @@
 
 ## Designer(s)
 
-- Ada Lovelace
-- Barbara Liskov
+- Houssem0x1
+
 
 ## Description
 
-A high-level overview intended to clarify the concept and intuition behind the challenge, outlining its educational
-goals and the skills it aims to test in participants.
+Recovering the content of a resident file from MFT
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
 ## Category(ies)
 
-- `pwn`
-- `re`
-- `web`
-- `stegano`
-- `env`
-- `crypto`
-- `osint`
-- `web3`
-- `ai`
-- `android`
-- `auto`
-- `misc`
+- `forensics`
 
 ---
 
