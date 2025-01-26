@@ -22,6 +22,6 @@ The key element that we need to understand is the diffrence between a resident f
 <br>
 <mark>Note:</mark>
 <p>A resident file within the MFT (Master File Table) is typically considered to be a small file, usually around 700 bytes or less, where the entire file content can fit directly within the MFT record itself. <br>
-Our Secret file meets all the requirements as it is 87 bytes of size only.
+Our `Secret file` meets all the requirements as it is 87 bytes of size only.
 </p>
 
