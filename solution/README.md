@@ -34,6 +34,10 @@ Notice `--de` option, it asks for  $MFT entry/sequence of a file to dump its det
 
 ok, let's form the command now:
 `MFTECmd.exe -f path/to/mft/file --de entry-seq` 
-![image](https://github.com/user-attachments/assets/3682fa44-e580-45f7-b263-0059e3ea8a33)
 
+![image](https://github.com/user-attachments/assets/3682fa44-e580-45f7-b263-0059e3ea8a33)
+![image](https://github.com/user-attachments/assets/eece95ce-ac61-4eb7-ae43-ae7f28b9b961)
+
+It displays tons of useful info, plus th file content that we are looking for.
+Flag: ` ATHACKCTF{NTF$_M4s73r_fiL3_T4bL3!!!}`
 
