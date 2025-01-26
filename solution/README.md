@@ -13,7 +13,7 @@ The key element that we need to understand is the diffrence between a resident f
   - Large file size <br>
   - Data stored in separate clusters on disk <br>
   - MFT entry contains pointers to the locations of the data clusters 
-  
+  <br>
   <br>
   
 **Example:** 
