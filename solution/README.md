@@ -14,6 +14,7 @@ The key element that we need to understand is the diffrence between a resident f
   - Data stored in separate clusters on disk <br>
   - MFT entry contains pointers to the locations of the data clusters 
   <br>
+  
 **Example:** 
 
  - A small text file with only a few lines might be considered a resident file because its entire content could fit within the MFT record. <br>
