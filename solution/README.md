@@ -17,6 +17,7 @@ The key element that we need to understand is the diffrence between a resident f
 **Example:**
  - A small text file with only a few lines might be considered a resident file because its entire content could fit within the MFT record. 
  - A large video file would be a non-resident file as its data would occupy many clusters on the disk and only the starting location of that data would be stored within the MFT entry. 
+ 
 <br>
 <p>A resident file within the MFT (Master File Table) is typically considered to be a small file, usually around 700 bytes or less, where the entire file content can fit directly within the MFT record itself</p>
 
