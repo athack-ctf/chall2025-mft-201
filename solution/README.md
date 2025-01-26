@@ -22,6 +22,18 @@ The key element that we need to understand is the diffrence between a resident f
 <br>
 <mark>Note:</mark>
 <p>A resident file within the MFT (Master File Table) is typically considered to be a small file, usually around 700 bytes or less, where the entire file content can fit directly within the MFT record itself. <br>
-Our `Secret file` meets all the requirements as it is 87 bytes of size only.
+Our Secret file meets all the requirements as it is 87 bytes of size only.
 </p>
+
+Now, how to recover the content of the file, always using MFTECmd tool by Eric Zimmerman, lets see more options and features of this tool: 
+![image](https://github.com/user-attachments/assets/5cd3b49f-8692-4af8-8846-93491e6fe50f)
+
+Notice `--de` option, it asks for  $MFT entry/sequence of a file to dump its details, we already have these info from our parse results from <mark>MFT 101</mark>, remember that csv file, let's check it back by opening it in Timeline Explorer:
+
+![image](https://github.com/user-attachments/assets/08948878-610c-4d6a-a603-8a4262f4ead9)
+
+ok, let's form the command now:
+`MFTECmd.exe -f path/to/mft/file --de entry-seq` 
+![image](https://github.com/user-attachments/assets/3682fa44-e580-45f7-b263-0059e3ea8a33)
+
 
