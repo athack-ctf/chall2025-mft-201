@@ -5,7 +5,7 @@ Here, the task is clear; we believe the secret file we looked on in `MFT 101` ho
 The key element that we need to understand is the diffrence between a resident file and non-residen file:
 
 <H2>Resident file:</H2>
-  - Small file size 
+  - Small file size \n
   - Entire file data stored directly within the MFT record 
   - Faster access due to data being readily available in the MFT 
   
