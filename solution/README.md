@@ -40,5 +40,6 @@ ok, let's form the command now:
 
 It displays tons of useful info, plus th file content that we are looking for. 
 <br>
+<br>
 Flag: ` ATHACKCTF{NTF$_M4s73r_fiL3_T4bL3!!!}`
 
