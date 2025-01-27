@@ -1,11 +1,6 @@
 # Building Your Challenge
 
-The purpose of this directory is to provide a reproducible way of rebuilding your challenge.
+Basically, I just sapwn a Windows 10 VM, created a folder named important and inside it I created a file named secret.txt with the following content:
+--> --> Welcome to ATHACKCTF 2k25; ATHACKCTF{NTF$_M4s73r_fiL3_T4bL3!!!} --> Houssem0x1
 
-- If your challenge can be programmatically rebuilt, treat this directory as the root of the source code.
-
-- If your process is mainly manual, then it should be documented, along with all necessary files.
-
-- If you have used a special tool (e.g., a file encoding tool) to build the challenge, it should be documented as well.
-
-- For any clarifications, consult us (Anis and Hugo).
+Then, I extracted the $MFT file using FTK imager.
