@@ -18,6 +18,6 @@ flags:
 tags:
     
 files:
-    - offline-artifacts/
+    - offline-artifacts/mft_101_201.zip
 
 state: visible
