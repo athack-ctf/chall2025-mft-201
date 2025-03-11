@@ -1,0 +1,23 @@
+name: "MFT 201"
+author: "Houssem"
+category: Forensics
+description: |
+	We believe that the secret file contains valuable data, can you recover its content and get the flag!  
+
+  Note: You ca use the same attachment from <mark>MFT 101 </mark> challenge.    
+        
+value: 150
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{NTF$_M4s73r_fiL3_T4bL3!!!}"
+    data: "case_insensitive"
+
+tags:
+    
+files:
+    - offline-artifacts/
+
+state: visible
