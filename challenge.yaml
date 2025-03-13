@@ -2,10 +2,10 @@ name: "MFT 201"
 author: "Houssem"
 category: Forensics
 description: |
-	We believe that the secret file contains valuable data, can you recover its content and get the flag!  
+  We believe that the secret file contains valuable data, can you recover its content and get the flag!
 
-  Note: You ca use the same attachment from <mark>MFT 101 </mark> challenge.    
-        
+  **Note**: You can use the same attachments from the MFT 101 challenge.
+
 value: 150
 
 type: standard
@@ -16,8 +16,8 @@ flags:
     data: "case_insensitive"
 
 tags:
-    
+
 files:
-    - offline-artifacts/mft_101_201.zip
+  - offline-artifacts/mft_101_201.zip
 
 state: visible
