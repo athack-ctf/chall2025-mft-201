@@ -1,50 +1,43 @@
-# Chall - MFT 201
+# @HACK 2025: MFT 201
 
-> It is about the master file table (MFT) in windows NTFS file system.
+> Authored by [Houssem](https://github.com/Houssem0x1).
 
-## Type
+- **Category**: `Forensics`
+- **Value**: `150 points`
 
-- [X] **OFF**line
-- [ ] **ON**line
+> We believe that the secret file contains valuable data, can you recover its content and get the flag!
+> 
+> **Note**: You can use the same attachments from the MFT 101 challenge.
+> 
 
-## Designer(s)
+## Files
+- **[Download: mft_101_201.zip](https://github.com/athack-ctf/chall2025-mft-201/raw/refs/heads/main/offline-artifacts/mft_101_201.zip)**
 
-- Houssem0x1
+## Reveal Flag
 
+Did you try solving this challenge?
+<details>
+<summary>
+Yes
+</summary>
 
-## Description
+Did you **REALLY** try solving this challenge?
 
-Recovering the content of a resident file from MFT
+<details>
+<summary>
+Yes, I promise!
+</summary>
 
-**IMPORTANT:** This description will **NOT** be shared with participants.
+Flag: `ATHACKCTF{NTF$_M4s73r_fiL3_T4bL3!!!}`
 
-## Category(ies)
+</details>
+</details>
 
-- `forensics`
 
 ---
 
-# Project Structure
+## About @HACK
+[@HACK](https://athackctf.com/) is an annual CTF (Capture The Flag) competition hosted by [HEXPLOIT ALLIANCE](https://hexploit-alliance.com/) and [TECHNATION](https://technationcanada.ca/) at Concordia University in Montreal, Canada.
 
-## 1. HACKME.md
-
-- **[HACKME.md](HACKME.md)**: A teaser or description of the challenge to be shared with participants (in CTFd).
-
-## 2. Source Code
-
-- **[source/README.md](source/README.md)**: Sufficient instructions for building your offline artifacts from source
-  code. If your project includes multiple subprojects, please consult us (Anis and Hugo).
-- **[source/*](source/)**: Your source code.
-
-## 3. Offline Artifacts
-
-- **[offline-artifacts/*](offline-artifacts/)**: All files (properly named) intended for local download by
-  participants (e.g., a binary executable for reverse engineering, a custom-encoded image, etc.). For large files (
-  exceeding 100 MB), please consult us (Anis and Hugo).
-
-## 4. Solution
-
-- **[solution/README.md](solution/README.md)**: A detailed writeup of the working solution.
-- **[solution/FLAGS.md](solution/FLAGS.md)**: A single markdown file listing all (up-to-date) flags.
-- **[solution/*](solution/)**: Any additional files or code necessary for constructing a reproducible solution for the
-  challenge (e.g., `PoC.py`, `requirement.txt`, etc.). 
+---
+[Check more challenges from @HACK 2025](https://github.com/athack-ctf/AtHackCTF-2025-Challenges).
